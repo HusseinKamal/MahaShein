@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maha SheIn</string>
+    <string name="error_no_orders">No Orders</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="num_of_products">Quantity</string>
+    <string name="total_price">Buy Price</string>
+    <string name="total_sell_price">Sell Price</string>
+    <string name="shipment_fees">Shipping Fees</string>
+    <string name="prepayment">Pre-payment</string>
+    <string name="remaining_payment">Remaining payments</string>
+    <string name="ordered">Date</string>
+    <string name="products">Products</string>
+    <string name="create_order">Create Order</string>
+    <string name="update_order">Update Order</string>
+    <string name="create_product">Create Product</string>
+    <string name="update_product">Update Product</string>
+    <string name="egp">EGP</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_products">No Products</string>
+    <string name="profit">Profit</string>
+    <string name="riyal_price">Price of Riyal</string>
+    <string name="username">Client Name</string>
+    <string name="delete_product_title">Delete Process</string>
+    <string name="delete_product_msg">You Sure You Want To Delete?</string>
+
+</resources>
