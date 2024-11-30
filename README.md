@@ -12,6 +12,14 @@
 
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+# Tools
+* RoomDB with compose multiplaform
+* MVVM design pattern
+* compose views
+* Koin dependency injection
+* Navigate graph and nested compostables
+* Shared UI and Modules
+
 
 # App Scenario 
 ![MahaShein1](https://github.com/user-attachments/assets/c8cdb7d6-37bb-4d26-9a20-a19136ef442b)
