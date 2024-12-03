@@ -27,7 +27,7 @@ class OrderViewModel(
         viewModelScope.launch {
             database.orderDao().getAllOrders()
                 .collect {
-                    _orders.value = RequestState.Success(it)
+                    _orders.value = RequestState.Success(it.toMutableList().sortedByDescending { it.id })
                 }
         }
     }

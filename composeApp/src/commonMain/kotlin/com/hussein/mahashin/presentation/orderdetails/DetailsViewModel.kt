@@ -20,10 +20,10 @@ class DetailsViewModel(
     private val selectOrderId: Int = savedStateHandle.get<Int>(ORDER_ID_ARG) ?: -1
 
     var nameField = mutableStateOf("")
-    var quantityField = mutableStateOf("")
-    var totalBuyPriceField = mutableStateOf("")
-    var totalSellPriceField = mutableStateOf("")
-    var totalShipmentFeeField = mutableStateOf("")
+    var quantityField = mutableStateOf("0")
+    var totalBuyPriceField = mutableStateOf("0")
+    var totalSellPriceField = mutableStateOf("0")
+    var totalShipmentFeeField = mutableStateOf("0")
     var descriptionField = mutableStateOf("")
     var dateField = mutableStateOf("")
     var riyalField = mutableStateOf("")
@@ -58,10 +58,6 @@ class DetailsViewModel(
             try {
                 if (
                     nameField.value.isNotEmpty() &&
-                    quantityField.value.isNotEmpty() &&
-                    totalBuyPriceField.value.isNotEmpty() &&
-                    totalSellPriceField.value.isNotEmpty() &&
-                    descriptionField.value.isNotEmpty() &&
                     dateField.value.isNotEmpty()
                 ) {
                     database.orderDao()
@@ -95,10 +91,6 @@ class DetailsViewModel(
         viewModelScope.launch {
             try {
                 if (nameField.value.isNotEmpty() &&
-                    quantityField.value.isNotEmpty() &&
-                    totalBuyPriceField.value.isNotEmpty() &&
-                    totalSellPriceField.value.isNotEmpty() &&
-                    descriptionField.value.isNotEmpty() &&
                     dateField.value.isNotEmpty()
                 ) {
                     database.orderDao()

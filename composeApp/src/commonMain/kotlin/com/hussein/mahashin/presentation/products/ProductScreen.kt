@@ -172,7 +172,7 @@ fun ProductScreen(
                 value =  productsField.value.username ?: "",
                 onValueChange = { viewModel.onProductUsernameChange(it)},
                 keyboardOptions = KeyboardOptions(
-                    keyboardType = KeyboardType.Number,
+                    keyboardType = KeyboardType.Text,
                     imeAction = ImeAction.Next
                 ),
                 label = { Text(text =stringResource(Res.string.username)) }, // Outer hint
